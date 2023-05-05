@@ -25,4 +25,9 @@ body {
 div, a {
     color: aliceblue;
 }
+h1 {
+    color: orange;
+    background-color: burlywood;
+    text-align: center;
+}
 
