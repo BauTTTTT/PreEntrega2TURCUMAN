@@ -1,0 +1,37 @@
+:root { 
+        --fuentePrincipal: font-family: 'Staatliches', cursiva;
+}
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.navecion-principal {
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+    column-gap: 5rem;
+
+}
+.enlace {
+    text-decoration: none;
+}
+div, a {
+    color: aliceblue;
+}
+h1 {
+    color: orange;
+    background-color: burlywood;
+    text-align: center;
+}
+footer {
+    position:absolute;
+    width:100%;
+    bottom:0px;
+}
